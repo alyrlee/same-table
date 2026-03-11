@@ -1,0 +1,37 @@
+{
+  "name": "eat-this-not-that",
+  "version": "1.0.0",
+  "description": "Same Table by Health + Heritage — culturally-rooted healthier food alternatives",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "start": "npm run build && node server/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dataset:build": "node server/scripts/build-dataset.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1",
+    "vite-plugin-pwa": "^0.19.8",
+    "vitest": "^4.0.18"
+  }
+}

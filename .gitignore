@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded files (user-generated content)
+uploads/*
+!uploads/.gitkeep
+
+# Dataset builds (regenerated via script)
+dataset/recipes.json
+dataset/recipes.csv
+dataset/ingredients-nutrition.json
+dataset/community/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# PWA generated files
+dev-dist/
+
+# Test coverage
+coverage/
