@@ -45,3 +45,4 @@ dev-dist/
 
 # Test coverage
 coverage/
+.vercel
