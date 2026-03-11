@@ -94,7 +94,7 @@ export default function AuthModal({ isOpen, onClose }) {
           </button>
         </div>
 
-        <form className="auth-form" onSubmit={handleSubmit}>
+        <form className="auth-form" onSubmit={handleSubmit} noValidate>
           {tab === 'signup' && (
             <div className="auth-field">
               <label htmlFor="auth-name">{t('auth_name')}</label>
